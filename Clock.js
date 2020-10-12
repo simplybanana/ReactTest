@@ -13,7 +13,6 @@ class Clock extends Component {
       }
     startTimer = (event) =>{
         if (event.keyCode === 32 && !this.state.on){
-            console.log('start')
             this.setState({
                 timer: 0,
                 timerInterval: 1,
